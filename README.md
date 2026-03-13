@@ -16,7 +16,21 @@
 
 ## Data Preprocessing & Engineering
 #### A significant portion of this project focuses on data quality and feature transformation:
-Anomaly Detection: Cleaned structural errors in categorical fields like Occupation, SSN, and Payment_Behaviour using customer-specific mode imputation.
-Numerical Cleaning: Handled "dirty" numerical strings (e.g., stripping non-numeric characters from Age and Annual_Income).
-Feature Transformation: Converted Credit_History_Age from strings (e.g., "22 years and 1 month") into a continuous float format (22.01) for model compatibility.
-Imputation Strategy: Used median and mode values grouped by Customer_ID to preserve individual financial profiles.
+- Anomaly Detection: Cleaned structural errors in categorical fields like Occupation, SSN, and Payment_Behaviour using customer-specific mode imputation.
+- Numerical Cleaning: Handled "dirty" numerical strings (e.g., stripping non-numeric characters from Age and Annual_Income).
+- Feature Transformation: Converted Credit_History_Age from strings (e.g., "22 years and 1 month") into a continuous float format (22.01) for model compatibility.
+- Imputation Strategy: Used median and mode values grouped by Customer_ID to preserve individual financial profiles.
+
+## Model Architecture
+#### The project explores several ensemble learning techniques to find the most accurate classifier:
+- Random Forest Classifier
+- Gradient Boosting (GBM)
+- AdaBoost
+- XGBoost (Optimized for high performance)
+
+## Results & Evaluation
+#### The models were evaluated using standard classification metrics:
+- Accuracy: Overall correctness of the prediction.
+- F1-Score: To ensure a balance between precision and recall across all credit classes.
+- Classification Report: Detailed breakdown of performance per class.
+
