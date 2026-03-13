@@ -34,3 +34,14 @@
 - F1-Score: To ensure a balance between precision and recall across all credit classes.
 - Classification Report: Detailed breakdown of performance per class.
 
+## Model Performance Evaluation
+The models were evaluated based on their ability to classify the three credit tiers. Below are the comparative results:
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+| :--- | :---: | :---: | :---: | :---: |
+| **XGBoostClassifier** | 0.82 | 0.82 | 0.82 | 0.82 |
+| **RandomForestClassifier** | 0.80 | 0.80 | 0.80 | 0.80 |
+| **GradientBoostingClassifier** | 0.76 | 0.77 | 0.76 | 0.76 |
+| **AdaBoostClassifier** | 0.71 | 0.71 | 0.71 | 0.71 |
+
+## XGBoost emerged as the best performing model for this dataset.
