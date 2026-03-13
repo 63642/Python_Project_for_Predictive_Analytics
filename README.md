@@ -45,3 +45,14 @@ The models were evaluated based on their ability to classify the three credit ti
 | **AdaBoostClassifier** | 0.71 | 0.71 | 0.71 | 0.71 |
 
 ## XGBoost emerged as the best performing model for this dataset.
+
+
+## Model Performance Evaluation
+After extensive data cleaning and feature engineering, four major classification models were tested. **XGBoost** emerged as the most balanced and accurate model for this dataset.
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+| :--- | :---: | :---: | :---: | :---: |
+| **XGBoostClassifier** | **0.7470** | **0.7477** | **0.7470** | **0.7470** |
+| RandomForestClassifier | 0.7386 | 0.7658 | 0.7386 | 0.7426 |
+| GradientBoostingClassifier | 0.7239 | 0.7255 | 0.7239 | 0.7236 |
+| AdaBoostClassifier | 0.6460 | 0.6474 | 0.6484 | 0.6450 |
