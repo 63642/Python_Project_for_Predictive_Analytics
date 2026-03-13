@@ -1,1 +1,3 @@
 # Credit_Score_Prediction_Machine_Learning_Project
+
+## Project Overview
